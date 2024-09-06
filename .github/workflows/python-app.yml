@@ -18,7 +18,7 @@ jobs:
 
       - name: Push a File
         run: |
-          echo "This is a new file." > requirements.txt
+          echo "numpy" > requirements.txt
           git config --global user.name "Mantra-Jain"
           git config --global user.email "mj.mantrajain@gmail.com"
           git add requirements.txt
