@@ -20,7 +20,7 @@ jobs:
         run: |
           echo "This is a new file." > requirements.txt
           git config --global user.name "Mantra-Jain"
-          git config --global user.email "mj.mantrajain"gmail.com"
+          git config --global user.email "mj.mantrajain@gmail.com"
           git add requirements.txt
           git commit -m "Add requirements.txt"
           git push origin main
