@@ -18,9 +18,9 @@ jobs:
 
       - name: Push a File
         run: |
-          echo "This is a new file." > newfile.txt
-          git config --global user.name "Shunux-Stuxnet"
-          git config --global user.email "nitya.nandjha2020@vitbhopal.ac.in"
+          echo "This is a new file." > requirements.txt
+          git config --global user.name "Mantra-Jain"
+          git config --global user.email "mj.mantrajain"gmail.com"
           git add newfile.txt
           git commit -m "Add newfile.txt"
           git push origin main
